@@ -5,7 +5,7 @@ import io.micronaut.context.event.StartupEvent;
 
 import javax.inject.Singleton;
 
-@Singleton
+//@Singleton
 public class SomeEventListener implements ApplicationEventListener<StartupEvent> {
 
 	private final AnotherInterface anotherInterface;
